@@ -1,0 +1,46 @@
+#sidebar{
+    width: 250px;
+    height: 100%;
+    position: fixed;
+    background: #191818;
+    color: white;
+    transition: transform 0.5s;
+}
+
+#sidebar ul{
+    padding: 50px;
+}
+
+#sidebar ul li{
+    padding: 15px;
+}
+
+#sidebar ul li a{
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    transition: color 0.4s;
+}
+
+#sidebar .fa-times{
+    color: #818181;
+    font-size: 25px;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    cursor: pointer;
+    transition: color 0.4s;
+}
+
+#sidebar ul li a:hover,
+#sidebar .fa-times:hover{
+    color: white;
+}
+
+.closed{
+    transform: translateX(-250px);
+}
+
+.addColor{
+    color:red !important;
+}
